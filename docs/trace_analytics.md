@@ -84,7 +84,7 @@ otel-trace-pipeline:
         unauthenticated:
   buffer:
     bounded_blocking:
-       # buffer_size is the number of ExportTraceRequest from otel-collector the data prepper should hold in memeory. 
+       # buffer_size is the number of ExportTraceRequest from otel-collector the data prepper should hold in memory. 
        # We recommend to keep the same buffer_size for all pipelines. 
        # Make sure you configure sufficient heap
        # default value is 12800
@@ -159,7 +159,7 @@ service-map-pipeline:
         window_duration: 180 
   buffer:
       bounded_blocking:
-         # buffer_size is the number of ExportTraceRequest from otel-collector the data prepper should hold in memeory. 
+         # buffer_size is the number of ExportTraceRequest from otel-collector the data prepper should hold in memory. 
          # We recommend to keep the same buffer_size for all pipelines. 
          # Make sure you configure sufficient heap
          # default value is 12800
